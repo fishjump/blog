@@ -96,7 +96,8 @@ profile:
 # Sidebar navigation links
 menu:
   Home: /
-  About: /about
+  Search: /search
+  # About: /about
   # Links: /links
   # Github: https://github.com/username
 
@@ -104,13 +105,13 @@ menu:
 sns:
   # Built-in icons
   # `email`, `feed`, `github`, `twitter`, `facebook`, `instagram`, `tumblr`, `dribbble`, `telegram`
-  # `youtube`, `hangouts`, `linkedin`, `pinterest`, `soundcloud`, `myspace`, `weibo`, `qq
+  # `youtube`, `hangouts`, `linkedin`, `pinterest`, `soundcloud`, `myspace`, `weibo`, `qq`
   - icon: email
     title: Email
     url: z1052525203@outlook.com
-  # - icon: feed
-  #   title: Feed
-  #   url: # default to `hexo.config.feed.path`
+  - icon: github
+    title: GitHub
+    url: https://github.com/superfish
 
   # custom icon
   # - title: Email me
@@ -143,7 +144,7 @@ footer:
 # Page
 page:
   # Display Table of content, default to `true`
-  # toc: false
+  toc: true
 
   # Display reward, default to `false`
   # reward: true
@@ -180,7 +181,11 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
+  page: true
+  adapter:
+    range:
+      - post
 
   # Render a stand
 

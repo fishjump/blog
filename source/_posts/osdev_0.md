@@ -3,6 +3,9 @@ title: 基于UEFI的操作系统开发(零) 前言
 date: 2021-03-06 18:28:21
 tags: 操作系统
 categories: 操作系统开发
+
+title_en: osdev_0
+categories_en: osdev
 ---
 #  基于UEFI的操作系统开发（零）前言
 
